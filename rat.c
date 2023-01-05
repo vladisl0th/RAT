@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	if (argc < 3) {
-		fprintf(stderr, "Usage: %s [host] [port]\n", argv[0]);
+		fprintf(stderr, "Usage: %s [IP] [PORT]\n", argv[0]);
 		exit(1);
 	}
 
